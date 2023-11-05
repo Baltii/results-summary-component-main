@@ -121,7 +121,7 @@
 
   .result .stat {
     color: hsl(224, 30%, 27%);
-    font-weight: 800;
+    font-weight: 700;
   }
   .result {
     display: flex;
@@ -160,11 +160,12 @@
     color: white;
     background: hsl(224, 30%, 27%);
     text-align: center;
-    padding: 15px;
-    border-radius: 25px;
+    padding: 25px;
+    border-radius: 35px;
     margin-top: 20px;
     border: 0;
     font-weight: 700;
+    font-size: 18px;
   }
   .btn:hover {
     background: linear-gradient(
@@ -298,7 +299,7 @@
 
   .result .stat {
     color: hsl(224, 30%, 27%);
-    font-weight: 800;
+    font-weight: 700;
   }
   .result {
     display: flex;
@@ -337,11 +338,12 @@
     color: white;
     background: hsl(224, 30%, 27%);
     text-align: center;
-    padding: 15px;
-    border-radius: 25px;
+    padding: 25px;
+    border-radius: 35px;
     margin-top: 20px;
     border: 0;
     font-weight: 700;
+    font-size: 18px;
   }
   .btn:hover {
     background: linear-gradient(
