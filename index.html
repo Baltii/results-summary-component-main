@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="statistique">
+          <p style="opacity: 0.6; margin-top: 0">Your Result</p>
+          <div class="cercle">
+            <p class="number">76</p>
+            <p class="subnumber">of 100</p>
+          </div>
+          <p style="font-size: 24px; font-weight: 700; margin-bottom: 20px">
+            Great
+          </p>
+          <p class="paragraphe">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+
+        <div class="content">
+          <div class="result">
+            <h2>Summary</h2>
+            <div class="row redbg">
+              <div class="result-row">
+                <img
+                  class="icon"
+                  src="./assets/images/icon-reaction.svg"
+                  alt="" />
+                <p>Reaction</p>
+              </div>
+              <p><span class="stat">80 </span>/ 100</p>
+            </div>
+            <div class="row yellowbg">
+              <div class="result-row">
+                <img
+                  class="icon"
+                  src="./assets/images/icon-memory.svg"
+                  alt="" />
+                <p>Memory</p>
+              </div>
+
+              <p><span class="stat">92 </span> / 100</p>
+            </div>
+            <div class="row greenbg">
+              <div class="result-row">
+                <img
+                  class="icon"
+                  src="./assets//images/icon-verbal.svg"
+                  alt="" />
+                <p>Verbal</p>
+              </div>
+
+              <p><span class="stat">61 </span> / 100</p>
+            </div>
+            <div class="row bluebg">
+              <div class="result-row">
+                <img
+                  class="icon"
+                  src="./assets/images/icon-visual.svg"
+                  alt="" />
+                <p>Visual</p>
+              </div>
+
+              <p><span class="stat">72 </span> / 100</p>
+            </div>
+            <button class="btn">Continue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="balti.me">Ahmed Balti</a>.
+    </div>
+  </body>
+</html>
